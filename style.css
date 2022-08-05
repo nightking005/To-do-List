@@ -1,0 +1,46 @@
+
+.container{
+    background-color: grey;
+    justify-content: center;
+
+    margin: 50px auto;
+    width: 60vw;
+    min-height: 80vh;
+    height: 100%;
+}
+.title{
+    padding: 15px;
+    margin:  auto;
+    text-align: center;
+}
+.form{
+   
+    margin: auto;
+    text-align: center;
+   max-width: 80%;
+    
+}
+input[type='submit'], button, [aria-label]
+{
+    cursor: pointer;
+}
+#edit-box{
+    display: none;
+    margin: 10px auto;
+    max-width: 80%;
+}
+td{
+    background-color: aqua;
+    border-radius: 2px;
+}
+p{
+    color: white;
+}
+@media screen and ( max-width: 400px) {
+    .container {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      height: 100%;
+      margin: 0;
+      padding: 30px;
+    }
+  }
